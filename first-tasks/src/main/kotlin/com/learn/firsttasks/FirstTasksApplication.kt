@@ -8,5 +8,4 @@ class FirstTasksApplication
 
 fun main(args: Array<String>) {
 	runApplication<FirstTasksApplication>(*args)
-	println("Hello")
 }

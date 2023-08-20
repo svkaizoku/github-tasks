@@ -17,6 +17,9 @@ on:
         required: true
         # The data type of the input
         type: string
+      bye:
+        description: 'Person to send bye'
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,3 +33,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+  send_bye:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send bye
+        run: echo "Hello ${{ inputs.bye }}"

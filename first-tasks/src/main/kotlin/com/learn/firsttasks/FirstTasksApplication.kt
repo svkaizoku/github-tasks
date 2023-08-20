@@ -12,5 +12,7 @@ fun main(args: Array<String>) {
 	var b = 11
 	var c = 10
 	var d = 11
+	var e = 100
+
 }
 

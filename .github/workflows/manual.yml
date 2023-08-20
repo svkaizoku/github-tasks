@@ -34,4 +34,4 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
     - name: Send bye
-      run: echo "Hello ${{ inputs.bye }}"    
+      run: echo "Bye ${{ inputs.bye }}"

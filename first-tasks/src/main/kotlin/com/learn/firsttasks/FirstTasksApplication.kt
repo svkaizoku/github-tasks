@@ -8,4 +8,6 @@ class FirstTasksApplication
 
 fun main(args: Array<String>) {
 	runApplication<FirstTasksApplication>(*args)
+	var a = 10
 }
+

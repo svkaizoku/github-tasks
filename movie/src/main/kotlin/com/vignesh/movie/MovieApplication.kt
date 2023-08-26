@@ -1,12 +1,11 @@
-package com.learn.firsttasks
+package com.vignesh.movie
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FirstTasksApplication
+class MovieApplication
 
 fun main(args: Array<String>) {
-	runApplication<FirstTasksApplication>(*args)
+	runApplication<MovieApplication>(*args)
 }
-

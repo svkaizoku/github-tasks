@@ -9,3 +9,5 @@ updates:
     directory: "/movie" # Location of package manifests
     schedule:
       interval: "daily"
+    labels:
+      - "gradle dependencies"

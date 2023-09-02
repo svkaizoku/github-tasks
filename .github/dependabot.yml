@@ -10,4 +10,4 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "gradle dependencies"
+      - "gradle bot version updates"

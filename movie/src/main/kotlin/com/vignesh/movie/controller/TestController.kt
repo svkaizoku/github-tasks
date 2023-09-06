@@ -18,6 +18,6 @@ class TestController {
 
     @GetMapping("/bye")
     fun bye() : String {
-        return  "bye1"
+        return  "bye1w"
     }
 }

@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Movie
-  description: Movie repo
+  description: Movie repo 1
   annotations:
     backstage.io/source-location: https://github.com/svkaizoku/github-tasks
   links:

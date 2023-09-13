@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: resolve-core-conversation-service
-  description: Resolve service which responsible for handling all logic regarding conversations
+  name: Movie
+  description: Movie repo
   annotations:
     backstage.io/source-location: https://github.com/svkaizoku/github-tasks
   links:

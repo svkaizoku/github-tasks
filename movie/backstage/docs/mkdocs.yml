@@ -4,4 +4,5 @@ repo_url: https://github.com/svkaizoku/github-tasks
 nav:
   - Overview: 'index.md'
 plugins:
+  - monorepo
   - techdocs-core

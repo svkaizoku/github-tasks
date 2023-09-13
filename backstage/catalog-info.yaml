@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: resolve-core-backend
+spec:
+  type: url
+  targets:
+    - ../movie/backstage/catalog-info.yaml
+    

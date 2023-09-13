@@ -1,0 +1,22 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: resolve-core-conversation-service
+  description: Resolve service which responsible for handling all logic regarding conversations
+  annotations:
+    backstage.io/source-location: https://github.com/svkaizoku/github-tasks
+  links:
+    - url: https://github.com/svkaizoku/github-tasks
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/svkaizoku/github-tasks/actions
+      title: Github CI
+      icon: ci
+  tags:
+    - github
+    - resolve
+spec:
+  type: service
+  lifecycle: production
+  owner: resolve

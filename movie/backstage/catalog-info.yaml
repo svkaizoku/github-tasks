@@ -6,7 +6,7 @@ metadata:
   description: Movie repo 1
   annotations:
     backstage.io/source-location: url:https://github.com/svkaizoku/github-tasks
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/svkaizoku/github-tasks
   links:
     - url: https://github.com/svkaizoku/github-tasks
       title: GitHub Repo

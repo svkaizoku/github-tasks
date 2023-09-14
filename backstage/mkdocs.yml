@@ -2,8 +2,5 @@ site_name: 'Hello'
 
 nav:
   - Home: index.md
-  - Subdirectory docs:
-    - Calculator Service: '!include ./movie/backstage/mkdocs.yml'
-
 plugins:
-  - monorepo
+  - techdocs-core

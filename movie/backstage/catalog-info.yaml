@@ -7,7 +7,7 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/svkaizoku/github-tasks
     backstage.io/techdocs-ref: url:https://github.com/svkaizoku/github-tasks/tree/main/movie/backstage
-    sonarqube.org/project-key: https://sonarcloud.io/svkaizoku_github-tasks
+    sonarqube.org/project-key: svkaizoku/github-tasks
   links:
     - url: https://github.com/svkaizoku/github-tasks
       title: GitHub Repo

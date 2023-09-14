@@ -5,5 +5,5 @@ metadata:
 spec:
   type: url
   targets:
-    - ../movie/backstage/catalog-info.yaml
+    - ../movie/catalog-info.yaml
     

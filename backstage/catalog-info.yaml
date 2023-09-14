@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: github-tasks
+  annotations:
+    backstage.io/source-location: url:https://github.com/svkaizoku/github-tasks
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: url
   targets:

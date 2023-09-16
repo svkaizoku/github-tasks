@@ -1,4 +1,5 @@
 # Customer Service  :computer:
+Hola
 ```kroki-mermaid
 sequenceDiagram
 GitLab->>Kroki: Request rendering

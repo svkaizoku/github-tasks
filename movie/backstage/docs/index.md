@@ -9,7 +9,7 @@ Kroki-->>GitLab: Image
 ```
 Plant uml
 
-
+```kroki-plantuml
 @startuml
 left to right direction
 skinparam packageStyle rectangle
@@ -23,3 +23,4 @@ rectangle checkout {
   (checkout) -- clerk
 }
 @enduml
+```

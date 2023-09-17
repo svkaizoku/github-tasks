@@ -1,5 +1,18 @@
 # Customer Service  :computer:
 Hola
+
+Only mermaid
+
+```mermaid
+sequenceDiagram
+GitLab->>Kroki: Request rendering
+Kroki->>Mermaid: Request rendering
+Mermaid-->>Kroki: Image
+Kroki-->>GitLab: Image
+```
+
+kroki mermai
+
 ```kroki-mermaid
 sequenceDiagram
 GitLab->>Kroki: Request rendering

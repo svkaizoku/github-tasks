@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/gradle-jdk17@master
+        uses: snyk/actions/gradle-jdk17@main
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:

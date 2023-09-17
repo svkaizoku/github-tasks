@@ -12,7 +12,7 @@ jobs:
       - name: Run snyk
         run: |
           set +e
-          snyk test --severity-threshold=high --fail-on=all --reachable --project-name=github-tasks
+          snyk test --severity-threshold=high --fail-on=all --reachable --project-name=svkaizoku/github-tasks
           exit_code=$?
-          snyk monitor --reachable --project-name=github-tasks
+          snyk monitor --reachable --project-name=svkaizoku/github-tasks
           exit $exit_code

@@ -1,4 +1,4 @@
-name: Example workflow for Gradle (jdk17) using Snyk
+name: Snyk Pipeline
 on: push
 jobs:
   security:

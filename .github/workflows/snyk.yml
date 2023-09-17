@@ -11,3 +11,10 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           args: --severity-threshold=high
+      - name: Run snyk
+        run: |
+          set +e
+          snyk test --severity-threshold=high --fail-on=all --reachable --project-name=github-tasks
+          exit_code=$?
+          snyk monitor --reachable --project-name=github-tasks
+          exit $exit_code

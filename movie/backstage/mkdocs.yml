@@ -5,3 +5,4 @@ nav:
   - Overview: 'index.md'
 plugins:
   - techdocs-core
+  - mermaid2

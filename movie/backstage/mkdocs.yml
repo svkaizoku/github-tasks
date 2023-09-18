@@ -4,6 +4,7 @@ repo_url: https://github.com/svkaizoku/github-tasks
 nav:
   - Overview: 'index.md'
 plugins:
+  - search
   - techdocs-core
   - mermaid2
 markdown_extensions:

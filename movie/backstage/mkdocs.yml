@@ -1,6 +1,8 @@
 site_name: 'Test'
 site_description: "Documentation for Customer Service"
 repo_url: https://github.com/svkaizoku/github-tasks
+markdown_extensions:
+  - markdown_inline_mermaid
 nav:
   - Overview: 'index.md'
 plugins:

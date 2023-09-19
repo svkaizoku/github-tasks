@@ -9,6 +9,7 @@ graph LR
 ```
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 pie
 "Dogs" : 386
 "Cats" : 85.9

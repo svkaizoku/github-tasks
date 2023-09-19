@@ -9,6 +9,13 @@ graph LR
 ```
 
 ```mermaid
+pie
+"Dogs" : 386
+"Cats" : 85.9
+"Rats" : 15
+```
+
+```mermaid
 flowchart TD
     M[Marketing] -->|Give budget| P[Product]
     M --> S(Spreadsheet)

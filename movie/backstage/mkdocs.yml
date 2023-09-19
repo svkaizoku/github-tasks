@@ -4,9 +4,7 @@ repo_url: https://github.com/svkaizoku/github-tasks
 nav:
   - Overview: 'index.md'
 plugins:
-  - techdocs-core
   - mermaid2
+  
 
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
+

@@ -17,7 +17,7 @@ flowchart TD
     X --> A
 ```
 
-```plantuml classes="uml myDiagram" alt="Diagram placeholder" title="My diagram"
+```plantuml
 @startuml
   Goofy ->  MickeyMouse: calls
   Goofy <-- MickeyMouse: responds
@@ -26,7 +26,7 @@ flowchart TD
 
 
 
-
+Yooo
 
 
 

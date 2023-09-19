@@ -5,6 +5,4 @@ nav:
   - Overview: 'index.md'
 plugins:
   - techdocs-core
-  - search
-  - mermaid2
 

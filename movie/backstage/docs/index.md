@@ -1,6 +1,6 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
 ```mermaid
-%%{init: {'theme': 'base'}}%%
+%%{init: {'theme': 'dark'}}%%
 
 graph LR
   A[Start] --> B{Error?};

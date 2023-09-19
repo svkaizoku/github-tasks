@@ -16,7 +16,13 @@ flowchart TD
     C --> R
     X --> A
 ```
-Because the required plugin is not installed, it will display the code instead of the diagram.
+
+```plantuml classes="uml myDiagram" alt="Diagram placeholder" title="My diagram"
+@startuml
+  Goofy ->  MickeyMouse: calls
+  Goofy <-- MickeyMouse: responds
+@enduml
+```
 
 
 

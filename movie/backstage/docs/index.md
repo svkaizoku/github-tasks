@@ -1,7 +1,5 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
-
 graph LR
   A[Start] --> B{Error?};
   B -->|Yes| C[Hmm...];
@@ -11,7 +9,6 @@ graph LR
 ```
 
 ```mermaid
-%%{init: {'theme':'dark'}}%%
 pie
 "Dogs" : 386
 "Cats" : 85.9

@@ -4,7 +4,13 @@ repo_url: https://github.com/svkaizoku/github-tasks
 nav:
   - Overview: 'index.md'
 plugins:
-  - mermaid2
+  - techdocs-core
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   
 
 

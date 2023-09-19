@@ -1,4 +1,13 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
 ```mermaid
 flowchart TD
     M[Marketing] -->|Give budget| P[Product]

@@ -4,14 +4,4 @@ repo_url: https://github.com/svkaizoku/github-tasks
 nav:
   - Overview: 'index.md'
 plugins:
-  - search
   - techdocs-core
-  - mermaid2:
-    version: 10.0.2
-markdown_extensions:
-  - pymdownx.superfences:
-        # make exceptions to highlighting of code:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom

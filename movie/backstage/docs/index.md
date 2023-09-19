@@ -17,6 +17,14 @@ flowchart TD
     X --> A
 ```
 
+```plantuml
+@startuml
+title Authentication Sequence
+    Alice->Bob: Authentication Request
+    note right of Bob: Bob thinks about it
+    Bob->Alice: Authentication Response
+@enduml
+```
 
 
 

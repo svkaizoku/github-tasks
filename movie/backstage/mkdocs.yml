@@ -5,3 +5,5 @@ nav:
   - Overview: 'index.md'
 plugins:
   - techdocs-core
+markdown_extensions:
+  - plantuml_markdown

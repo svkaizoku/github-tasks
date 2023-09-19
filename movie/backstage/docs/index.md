@@ -17,12 +17,6 @@ flowchart TD
     X --> A
 ```
 
-```plantuml
-@startuml
-  Goofy ->  MickeyMouse: calls
-  Goofy <-- MickeyMouse: responds
-@enduml
-```
 
 
 

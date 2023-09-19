@@ -1,6 +1,7 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
+
 graph LR
   A[Start] --> B{Error?};
   B -->|Yes| C[Hmm...];

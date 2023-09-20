@@ -1,21 +1,5 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
 ```mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-```mermaid
-pie
-"Dogs" : 386
-"Cats" : 85.9
-"Rats" : 15
-```
-
-```mermaid
 flowchart TD
     M[Marketing] -->|Give budget| P[Product]
     M --> S(Spreadsheet)
@@ -32,51 +16,4 @@ flowchart TD
     C --> R
     X --> A
 ```
-
-
-
-
-
-Yooo
-
-
-
-# Customer Service  :computer:
-Hola
-
-Only mermaid
-
-```mermaid
-sequenceDiagram
-GitLab->>Kroki: Request rendering
-Kroki->>Mermaid: Request rendering
-Mermaid-->>Kroki: Image
-Kroki-->>GitLab: Image
-```
-
-kroki mermai
-
-```kroki-mermaid
-sequenceDiagram
-GitLab->>Kroki: Request rendering
-Kroki->>Mermaid: Request rendering
-Mermaid-->>Kroki: Image
-Kroki-->>GitLab: Image
-```
-Plant uml
-
-```kroki-plantuml
-@startuml
-left to right direction
-skinparam packageStyle rectangle
-skinparam monochrome true
-actor customer
-actor clerk
-rectangle checkout {
-  customer -- (checkout)
-  (checkout) .> (payment) : include
-  (help) .> (checkout) : extends
-  (checkout) -- clerk
-}
-@enduml
-```
+Because the required plugin is not installed, it will display the code instead of the diagram.

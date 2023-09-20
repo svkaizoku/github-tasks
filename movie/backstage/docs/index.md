@@ -1,5 +1,8 @@
 This is an example page that has a mermaid diagram. Just so you can see how it looks.
 ```mermaid
+---
+title: Node
+---
 flowchart TD
     M[Marketing] -->|Give budget| P[Product]
     M --> S(Spreadsheet)

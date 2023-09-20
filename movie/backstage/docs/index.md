@@ -46,13 +46,7 @@ C4Context
       UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 ```
 
-```mermaid
-zenuml
-    title Demo
-    Alice->John: Hello John, how are you?
-    John->Alice: Great!
-    Alice->John: See you later!
-```
+
 ```mermaid
 ---
 title: Example Git diagram

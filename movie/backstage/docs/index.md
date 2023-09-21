@@ -5,7 +5,8 @@ This is an example page that has a mermaid diagram. Just so you can see how it l
 
 ```mermaid
 ---
-title: Example Git diagram
+title: 'Some post'
+date: 2020-07-07
 ---
 gitGraph
    commit

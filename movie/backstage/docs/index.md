@@ -3,7 +3,6 @@ This is an example page that has a mermaid diagram. Just so you can see how it l
 
 
 
-
 ```mermaid
 ---
 title: Example Git diagram

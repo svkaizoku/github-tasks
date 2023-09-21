@@ -215,7 +215,6 @@ sequenceDiagram
     B->>C: Hello Charly, how are you?
 ```
 ```mermaid
-
 ---
 title: Node
 ---

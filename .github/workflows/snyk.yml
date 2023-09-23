@@ -13,7 +13,7 @@ jobs:
         working-directory: ./movie
         run: |
           set +e
-          snyk test --severity-threshold=high --fail-on=all --reachable --project-name=svkaizoku/github-tasks-movie
+          snyk test --severity-threshold=high --fail-on=all --reachable --project-name=movie
           exit_code=$?
-          snyk monitor --reachable --project-name=svkaizoku/github-tasks-movie
+          snyk monitor --reachable --project-name=movie
           exit $exit_code

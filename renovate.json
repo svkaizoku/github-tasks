@@ -11,8 +11,8 @@
         ":renovatePrefix"
     ],
     "assigneesFromCodeOwners": true,
-    "description": "Growth element shared renovate configuration.",
-    "commitMessagePrefix": "PE-50000 ",
+    "description": "Config",
+    "commitMessagePrefix": "Test ",
     "configMigration": true,
     "labels": [
         "renovate",

@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "config:base",
+        "config:recommended",
         "group:monorepos",
         "group:recommended",
         "workarounds:javaLTSVersions",
@@ -17,7 +17,6 @@
         "renovate",
         "dependency-upgrade"
     ],
-
     "osvVulnerabilityAlerts": true,
     "reviewersFromCodeOwners": true,
     "packageRules": [
@@ -103,6 +102,5 @@
                 "org.sonarqube"
             ]
         }
-        
     ]
 }

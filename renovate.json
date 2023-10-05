@@ -1,0 +1,108 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base",
+        "group:monorepos",
+        "group:recommended",
+        "workarounds:javaLTSVersions",
+        ":prHourlyLimitNone",
+        ":prConcurrentLimitNone",
+        ":renovatePrefix"
+    ],
+    "assigneesFromCodeOwners": true,
+    "description": "Growth element shared renovate configuration.",
+    "commitMessagePrefix": "PE-50000 ",
+    "configMigration": true,
+    "labels": [
+        "renovate",
+        "dependency-upgrade"
+    ],
+
+    "osvVulnerabilityAlerts": true,
+    "reviewersFromCodeOwners": true,
+    "packageRules": [
+        {
+            "groupName": "Major version dependencies",
+            "groupSlug": "major-updates",
+            "matchUpdateTypes": [
+                "major"
+            ]
+        },
+        {
+            "groupName": "Minor version dependencies",
+            "groupSlug": "minor-updates",
+            "matchUpdateTypes": [
+                "minor"
+            ]
+        },
+        {
+            "groupName": "Patch, pin, digest version dependencies",
+            "groupSlug": "patch-ping-digest-updates",
+            "matchUpdateTypes": [
+                "patch",
+                "pin",
+                "digest",
+                "lockFileMaintenance"
+            ]
+        },
+        {
+            "groupName": "Spring Framework",
+            "groupSlug": "spring-updates",
+            "matchPackagePrefixes": [
+                "org.springframework"
+            ]
+        },
+        {
+            "groupName": "Amazon AWS",
+            "groupSlug": "amazonaws",
+            "matchPackagePrefixes": [
+                "com.amazonaws"
+            ]
+        },
+        {
+            "groupName": "Flyway",
+            "groupSlug": "flyway",
+            "matchPackageNames": [
+                "flyway",
+                "flyway/flyway"
+            ],
+            "matchPackagePrefixes": [
+                "org.flywaydb"
+            ]
+        },
+        {
+            "groupName": "Database layer dependencies",
+            "groupSlug": "db-layer",
+            "matchPackagePrefixes": [
+                "org.postgresql"
+            ]
+        },
+        {
+            "groupName": "Trade Republics internal dependencies",
+            "groupSlug": "trade-republic",
+            "matchPackagePrefixes": [
+                "com.traderepublic"
+            ]
+        },
+        {
+            "groupSlug": "linters",
+            "matchPackageNames": [
+                "com.pinterest:ktlint"
+            ],
+            "matchPackagePrefixes": [
+                "com.pinterest:ktlint"
+            ]
+        },
+        {
+            "groupName": "SonarQube",
+            "groupSlug": "sonarqube",
+            "matchPackagePrefixes": [
+                "org.sonarqube"
+            ],
+            "matchPackageNames": [
+                "org.sonarqube"
+            ]
+        }
+        
+    ]
+}

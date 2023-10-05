@@ -1,4 +1,4 @@
 [versions]
-springboot = "2.7.16"
+springboot = "3.1.4"
 [plugins]
 spring-boot = { id = "org.springframework.boot", version.ref = "springboot"}

@@ -5,15 +5,6 @@ name: Manual workflow new one
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - edited
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
@@ -28,6 +19,12 @@ on:
           # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
+  display_choice:
+     runs-on: ubuntu-latest
+     steps:
+      # Runs a single command using the runners shell
+      - name: Selected choice is
+        run: echo "Hello ${{ inputs.type_selected }} . greet ${{ inputs.type_selected == 'greet' }} , bye  ${{ inputs.type_selected == 'bye' }}"
   greet:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest

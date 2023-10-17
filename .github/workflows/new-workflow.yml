@@ -43,6 +43,8 @@ jobs:
         run: echo "Bye ${{ inputs.bye }}"
   security:
     runs-on: ubuntu-latest
+    env:
+      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     if: ${{ inputs.type_selected == 'snyk' }}
     steps:
       - uses: actions/checkout@v4

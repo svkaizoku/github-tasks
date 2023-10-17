@@ -20,6 +20,7 @@ on:
       type_selected:
         required: true
         type: choice
+        description: Wf for send
         options:
           - greet
           - bye

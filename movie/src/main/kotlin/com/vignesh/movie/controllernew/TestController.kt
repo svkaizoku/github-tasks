@@ -1,4 +1,4 @@
-package com.vignesh.movie.controller
+package com.vignesh.movie.controllernew
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController

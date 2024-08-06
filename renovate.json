@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "dependencyDashboard" : true,
+    "dependencyDashboard": true,
     "extends": [
         "config:recommended",
         "group:monorepos",
@@ -48,15 +48,15 @@
         {
             "groupName": "Spring Framework",
             "groupSlug": "spring-updates",
-            "matchPackagePrefixes": [
-                "org.springframework"
+            "matchPackageNames": [
+                "org.springframework{/,}**"
             ]
         },
         {
             "groupName": "Amazon AWS",
             "groupSlug": "amazonaws",
-            "matchPackagePrefixes": [
-                "com.amazonaws"
+            "matchPackageNames": [
+                "com.amazonaws{/,}**"
             ]
         },
         {
@@ -64,43 +64,37 @@
             "groupSlug": "flyway",
             "matchPackageNames": [
                 "flyway",
-                "flyway/flyway"
-            ],
-            "matchPackagePrefixes": [
-                "org.flywaydb"
+                "flyway/flyway",
+                "org.flywaydb{/,}**"
             ]
         },
         {
             "groupName": "Database layer dependencies",
             "groupSlug": "db-layer",
-            "matchPackagePrefixes": [
-                "org.postgresql"
+            "matchPackageNames": [
+                "org.postgresql{/,}**"
             ]
         },
         {
             "groupName": "Trade Republics internal dependencies",
             "groupSlug": "trade-republic",
-            "matchPackagePrefixes": [
-                "com.traderepublic"
+            "matchPackageNames": [
+                "com.traderepublic{/,}**"
             ]
         },
         {
             "groupSlug": "linters",
             "matchPackageNames": [
-                "com.pinterest:ktlint"
-            ],
-            "matchPackagePrefixes": [
-                "com.pinterest:ktlint"
+                "com.pinterest:ktlint",
+                "com.pinterest:ktlint{/,}**"
             ]
         },
         {
             "groupName": "SonarQube",
             "groupSlug": "sonarqube",
-            "matchPackagePrefixes": [
-                "org.sonarqube"
-            ],
             "matchPackageNames": [
-                "org.sonarqube"
+                "org.sonarqube",
+                "org.sonarqube{/,}**"
             ]
         }
     ]
